@@ -44,7 +44,7 @@
 * 操作符为3时，除法结果为3f2aaaaa（十进制为0.666…）；<br>
 ![Image](https://raw.githubusercontent.com/Zhaang255/esp32-fpu/master/images/%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E6%A8%A1%E5%9D%97%E4%BB%BF%E7%9C%9F%E7%BB%93%E6%9E%9C.png)
 ### 通过upy控制台实现FPGA与ESP32通信并显示浮点运算结果
-* 传输过程中第一位数据缺失，第二至五位和第六至第九位分别组成输入的两个8位的十六进制数，第十位为操作符，运算输出结果为倒数第五位至倒数第二位；<br>
+* 传输过程中第一位地址的数据流失，第二至五位和第六至第九位地址分别组成输入的两个8位的十六进制数，第十位为操作符，运算输出结果为倒数第五位至倒数第二位；<br>
 * 加法：  ![Image](https://raw.githubusercontent.com/Zhaang255/esp32-fpu/master/images/%E6%B5%AE%E7%82%B9%E8%BF%90%E7%AE%97%E5%8A%A0%E6%B3%95.png)
 * 减法：  ![Image](https://raw.githubusercontent.com/Zhaang255/esp32-fpu/master/images/%E6%B5%AE%E7%82%B9%E8%BF%90%E7%AE%97%E5%87%8F%E6%B3%95.png)
 * 乘法：  ![Image](https://raw.githubusercontent.com/Zhaang255/esp32-fpu/master/images/%E6%B5%AE%E7%82%B9%E8%BF%90%E7%AE%97%E4%B9%98%E6%B3%95.png)
