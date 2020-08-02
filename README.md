@@ -1,6 +1,6 @@
 # 2020年新工科联盟-Xilinx暑期学校（Summer School）项目
 ## 项目名称
-* 给ESP32增加FPU
+* **给ESP32增加FPU**
 ## 项目介绍
 ### 项目概要
 * 本项目设计的目的是给ESP32增加FPU，利用FPGA与ESP32间的QSPI通讯，通过FPGA对数据的处理来给ESP32增加浮点运算功能。
